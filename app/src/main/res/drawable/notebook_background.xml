@@ -1,0 +1,16 @@
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Parte amarilla en la parte superior -->
+    <item android:top="0dp">
+        <shape>
+            <solid android:color="#f9e789"/> <!-- Color amarillo -->
+            <corners android:radius="8dp"/>
+        </shape>
+    </item>
+    <!-- Parte blanca para el resto -->
+    <item android:top="60dp">
+        <shape>
+            <solid android:color="#FFFFFF"/> <!-- Color blanco -->
+            <corners android:radius="8dp"/>
+        </shape>
+    </item>
+</layer-list>
